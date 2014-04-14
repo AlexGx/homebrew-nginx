@@ -5,6 +5,6 @@ class PushStreamNginxModule < Formula
   url 'git://github.com/wandenberg/nginx-push-stream-module.git', :branch => "0.4.1-dev", :using => :git
 
   def install
-    (share+'push-stream-nginx-module').install Dir['*']
+    (share+'nginx-push-stream-module').install Dir['*']
   end
 end
