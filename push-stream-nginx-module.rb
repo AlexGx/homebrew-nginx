@@ -6,5 +6,6 @@ class PushStreamNginxModule < Formula
 
   def install
     (share+'nginx-push-stream-module').install Dir['*']
+    "--add-module=nginx-push-stream-module"
   end
 end
